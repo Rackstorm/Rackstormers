@@ -1,0 +1,84 @@
+/* === Layout === */
+/* Fråga: Hur gör jag sidan mer som ett A4? */
+main {
+  max-width: 800px;        /* begränsa bredden → lättare att läsa */
+  margin: 20px auto;       /* centrera på skärmen */
+  padding: 30px;           /* luft runt texten */
+  line-height: 1.6;        
+  font-family: Arial, sans-serif;
+
+  border: 1px solid #ccc;  /* tunn ram */
+  border-radius: 8px;      /* mjuka hörn */
+  background-color: #fff;  
+  box-shadow: 0 0 10px rgba(0,0,0,0.05); /* lite skugga */
+}
+
+
+/* === H1 === */
+/* Fråga: Hur får jag "Välkomna!" att poppa mer? */
+h1 {
+  font-size: 3rem;          /* rejält större */
+  font-weight: bold;        
+  text-align: center;       /* centrerad */
+  margin-bottom: 30px;      
+  letter-spacing: 2px;      /* luftigare bokstäver */
+}
+
+
+/* === Sektioner === */
+/* Fråga: Hur skapar jag luft mellan blocken? */
+section {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+
+/* === Rubriker === */
+/* Fråga: Hur visar jag hierarkin h2 > h3 > h4 tydligt? */
+h2 {
+  font-size: 1.8rem;   
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ccc; /* linje för att synas mer */
+}
+
+h3 {
+  font-size: 1.4rem;   
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-left: 0;      /* inget extra indrag */
+}
+
+h4 {
+  font-size: 1.1rem;   
+  margin-top: 25px;
+  margin-bottom: 0;    /* direkt ihop med texten under */
+}
+
+
+/* === Anställningar === */
+/* Fråga: Hur får jag rubrik + roll att hålla ihop? */
+h4 + p {
+  margin-top: 0;       
+  margin-bottom: 15px; 
+  line-height: 1.4;    
+}
+
+
+/* === Listor === */
+/* Fråga: Hur gör jag listor mer läsbara? */
+ul {
+  margin-left: 10px;   
+  margin-bottom: 20px; 
+  line-height: 1.6;    
+}
+
+
+/* === Bilder === */
+/* Fråga: Hur fixar jag att bilden inte spricker på mobilen? */
+.responsive-img {
+  max-width: 100%;     /* skalar ner på små skärmar */
+  height: auto;        /* behåller proportioner */
+  display: block;      
+  margin: 20px auto;   /* centrerad med luft runt */
+}
