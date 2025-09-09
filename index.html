@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <meta name="description" content="A brief description of the document">
-    <title>Document</title>
+    <title>Rackstormers Team</title>
+    <meta name="description" content="Rackstormers team presentation">
+    <link rel="stylesheet" href="style.css"> <!-- samma css som övriga -->
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <h1>Welcome to Our Team Page</h1>
+        <div class="logo">Rackstormers</div>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Hem</a></li>
                 <li><a href="joco.html">Joco</a></li>
                 <li><a href="adcha.html">Adcha</a></li>
                 <li><a href="pauline.html">Pauline</a></li>
@@ -21,29 +22,38 @@
     </header>
 
     <main>
-        <section>
-            <h2>Rackstormers</h2>
-            <p></p>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Välkommen till <span class="highlight">Rackstormers</span></h1>
+                <p>Vårt team av kreativa utvecklare.</p>
+            </div>
+            <div class="hero-image">
+                <img src="images/BG.png" alt="Team logo">
+            </div>
         </section>
 
-        <section id="personal-cards">
-            <div class="card">
-                <img src="images/BG.png" alt="Image" class="img" />
-                <h2>Joco</h2>
+        <!-- Team Cards -->
+        <section class="services">
+            <h2>Vårt team</h2>
+            <div class="service-box">
+                <img src="images/BG.png" alt="Joco" class="img" />
+                <h3>Joco</h3>
             </div>
-            <div class="card">
-                <img src="images/BG.png" alt="Image" class="img" />
-                <h2>Pauline</h2>
+            <div class="service-box">
+                <img src="images/BG.png" alt="Pauline" class="img" />
+                <h3>Pauline</h3>
             </div>
-            <div class="card">
-                <img src="images/BG.png" alt="Image" class="img" />
-                <h2>Adchariya</h2>
+            <div class="service-box">
+                <img src="images/BG.png" alt="Adchariya" class="img" />
+                <h3>Adchariya</h3>
             </div>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Our Team. All rights reserved.</p>
+        <p>© 2025 Rackstormers. All rights reserved.</p>
     </footer>
 </body>
 </html>
