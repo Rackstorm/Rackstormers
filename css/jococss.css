@@ -1,4 +1,13 @@
+body {
+  background-color: #b5afd8; /* ljus bakgrundsfärg */
+  color: #333;              /* mörk textfärg för bra kontrast */
+  font-size: 16px;         /* lagom stor text */
+  margin: 0;               /* ta bort standardmarginal */
+  padding: 0;              /* ta bort standardpadding */
+}
+
 /* === Layout === */
+
 /* Fråga: Hur gör jag sidan mer som ett A4? */
 main {
   max-width: 800px;        /* begränsa bredden → lättare att läsa */
